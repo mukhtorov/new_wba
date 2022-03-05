@@ -1,5 +1,13 @@
 import React from 'react';
-import { Card, Container, Count, Title } from './style';
+import {
+  Card,
+  Container,
+  Count,
+  Title,
+  Line,
+  FunTextWrapper,
+  FunText,
+} from './style';
 import { statistiks } from '../../../mock/statistiks';
 
 export const Statistiks = () => {
@@ -12,6 +20,12 @@ export const Statistiks = () => {
           <Title>{title}</Title>
         </Card>
       ))}
+      <FunTextWrapper>
+        <Line />
+        <FunText>
+          85 % bitiruvchilar hozir ishlashyapti, sizda nima gaplar &#129299;
+        </FunText>
+      </FunTextWrapper>
     </Container>
   );
 };

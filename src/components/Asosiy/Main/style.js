@@ -4,12 +4,19 @@ import { ReactComponent as line } from '../../../assets/icons/line_main.svg';
 export const Container = styled.div`
   display: flex;
   width: 100%;
+  @media (max-width: 1200px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 export const Left = styled.div`
   display: flex;
   flex-direction: column;
   flex: 1;
   justify-content: center;
+  @media (max-width: 1200px) {
+    order: 2;
+  }
 `;
 
 Left.Text = styled.div`
@@ -18,7 +25,6 @@ Left.Text = styled.div`
   font-weight: 500;
   font-size: 4.3vw;
   line-height: 88px;
-
   letter-spacing: -0.08em;
   color: #1b1a18;
 `;
@@ -36,6 +42,9 @@ export const Right = styled.div`
   display: flex;
   flex: 1;
   height: 720px;
+  @media (max-width: 1200px) {
+    order: 1;
+  }
 `;
 
 export const ImgWrapper = styled.div`
@@ -70,5 +79,6 @@ Image.Set3 = styled(Image)`
 
 export const Line = styled(line)`
   position: relative;
-  top: -45px;
+  top: -25px;
+  right: -8%;
 `;

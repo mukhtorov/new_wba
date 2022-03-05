@@ -14,11 +14,10 @@ export const FunText = styled.div`
   font-size: 16px;
   line-height: 26px;
   width: ${({ width }) => (width ? `${width}px` : '200px')};
-
+  font-family: Chilanka;
   letter-spacing: 0.02em;
   color: #514d48;
   margin-left: auto;
-
   top: -110px;
-  right: 230px;
+  right: 30%;
 `;

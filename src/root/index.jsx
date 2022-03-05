@@ -4,6 +4,7 @@ import { navbar } from '../utils/navbar';
 import { Container } from './style';
 import { Navbar } from '../components/Navbar';
 import Settings from '../components/Settings';
+import Footer from '../components/Generic/Footer';
 
 export const Root = () => {
   return (
@@ -25,6 +26,7 @@ export const Root = () => {
         <Route path='/' element={<Navigate to={'/asosiy'} />} />
         <Route path='*' element={<h1>not found</h1>} />
       </Routes>
+      {/* <Footer /> */}
     </Container>
   );
 };

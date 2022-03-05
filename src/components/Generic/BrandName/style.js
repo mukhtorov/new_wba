@@ -9,4 +9,5 @@ export const Container = styled.span`
   line-height: 40px;
   letter-spacing: -0.06em;
   color: ${({ blue }) => `var(${blue ? '--colorBlue' : '--colorBlack'})`};
+  cursor: pointer;
 `;

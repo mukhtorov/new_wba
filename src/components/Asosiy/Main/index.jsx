@@ -17,9 +17,9 @@ export const Main = () => {
   window.addEventListener('storage', () => {
     // When local storage changes, dump the list to
     // the console.
-    console.log(JSON.parse(window.localStorage.getItem('fun')), 'test');
+    // console.log(JSON.parse(window.localStorage.getItem('fun')), 'test');
+    console.log(localStorage.getItem('fun'), 'sss');
   });
-
   return (
     <Container>
       <Left>
@@ -29,17 +29,22 @@ export const Main = () => {
         </Left.Text>
         <Left.ButtonWrapper>
           <div className='main-left'>
-            <Button mr={24} width={226} border>
+            <Button mr={24} width={'30%'} border>
               Kurslarimiz
             </Button>
-            <Button display={'true'} width={226} border>
+            <Button
+              className='lineParent'
+              display={'true'}
+              width={'30%'}
+              border
+            >
               Aloqa
             </Button>
             <Line />
           </div>
           <FunText display={fun}>
             siz vapshe hech narsa bilmasangizam o’qito’ramiz (sizam vruchat
-            qvorarsiz )
+            qvorarsiz &#128540;)
           </FunText>
         </Left.ButtonWrapper>
       </Left>

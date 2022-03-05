@@ -1,10 +1,19 @@
 import styled from 'styled-components';
+import { ReactComponent as StatisticsLine } from '../../../assets/icons/statistics_line.svg';
 
 export const Container = styled.div`
-  display: flex;
-  margin: 35px 0 100px 0;
-  gap: 30px;
-  flex-wrap: wrap;
+  width: 100%;
+  margin: 135px 0;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  @media (max-width: 1450px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media (min-width: 1450px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  position: relative;
 `;
 
 export const Card = styled.div`
@@ -12,10 +21,7 @@ export const Card = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 329px;
-  min-width: 270px;
   height: 246px;
-
   background: #f5faff;
   box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
@@ -38,9 +44,34 @@ export const Title = styled.div`
   font-weight: normal;
   font-size: 25px;
   line-height: 34px;
-  /* identical to box height, or 136% */
-
-  /* text secondary */
-
   color: #514d48;
+`;
+export const Line = styled(StatisticsLine)``;
+export const FunTextWrapper = styled.div`
+  position: absolute;
+  bottom: -30%;
+  right: -5%;
+  display: flex;
+  @media (max-width: 1600px) {
+    bottom: -25%;
+    right: -7%;
+  }
+  @media (max-width: 1450px) {
+    bottom: -15%;
+    right: -7%;
+  }
+  @media (max-width: 900px) {
+    bottom: -15%;
+  }
+`;
+export const FunText = styled.div`
+  font-family: Chilanka;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  color: #1b1a18;
+  width: 50%;
+  padding-right: 20px;
 `;
