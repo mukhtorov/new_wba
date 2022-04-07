@@ -21,11 +21,16 @@ export const Container = styled.div`
 export const Wrapper = styled.div`
   display: flex;
   align-items: center;
-  flex: ${({ flex }) => flex && 1};
+  flex: ${({ flex }) => flex && 2};
   margin: ${({ flex }) => flex && '0 15%'};
   justify-content: space-around;
   padding: 15px 0;
-  /* border: ${({ flex }) => flex && '1px solid red'}; */
+  @media (min-width: 1300px) {
+    display: ${({ mobile }) => (mobile ? 'none' : 'flex')};
+  }
+  @media (max-width: 1300px) {
+    display: ${({ mobile }) => (mobile ? 'flex' : 'none')};
+  }
 `;
 
 export const Link = styled(NavLink)`

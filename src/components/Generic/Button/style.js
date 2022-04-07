@@ -4,8 +4,8 @@ export const Container = styled.div`
   display: ${({ display }) => (display ? 'none' : 'flex')};
   align-items: center;
   justify-content: center;
-  width: ${({ width }) => (width ? `${width}px` : '120px')};
-  height: ${({ height }) => (height ? `${height}px` : '50px')};
+  width: ${({ width }) => (width ? `${width}` : '120px')};
+  height: ${({ height }) => (height ? `${height}` : '50px')};
   color: ${({ border }) => (border ? 'var(--colorBlue)' : 'white')};
   border: ${({ border }) => border && '1px solid var(--colorBlue)'};
   margin-top: ${({ mt }) => mt && `${mt}px`};

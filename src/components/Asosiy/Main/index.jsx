@@ -1,6 +1,4 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect } from 'react';
-// import { useLocation } from 'react-router-dom';
 import { Container, Image, ImgWrapper, Left, Line, Right } from './style';
 import BlueText from '../../Generic/BlueText';
 import Button from '../../Generic/Button';
@@ -29,18 +27,18 @@ export const Main = () => {
         </Left.Text>
         <Left.ButtonWrapper>
           <div className='main-left'>
-            <Button mr={24} width={226} border>
+            <Button class='nav' mr={24} width={'30%'} border>
               Kurslarimiz
             </Button>
-            <Button display={'true'} width={226} border>
+            <Button class='nav' display={'true'} width={'30%'} border>
               Aloqa
             </Button>
-            <Line />
+            {/* <Line /> */}
           </div>
-          <FunText display={fun}>
+          {/* <FunText display={fun}>
             siz vapshe hech narsa bilmasangizam o’qito’ramiz (sizam vruchat
             qvorarsiz )
-          </FunText>
+          </FunText> */}
         </Left.ButtonWrapper>
       </Left>
       <Right>
