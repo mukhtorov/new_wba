@@ -3,11 +3,12 @@ import BizningJamoa from '../../Generic/BizningJamoa';
 import { data } from '../../../mock/bizningjamoa';
 import {} from './style';
 
-const Crads = () => {
+const Cards = () => {
   return (
     <div>
       {data.map((value) => (
         <BizningJamoa
+          key={value.id}
           name={value.name}
           type={value.type}
           description={value.description}
@@ -18,4 +19,4 @@ const Crads = () => {
   );
 };
 
-export default Crads;
+export default Cards;
