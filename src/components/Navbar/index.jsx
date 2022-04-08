@@ -4,6 +4,7 @@ import { Container, Layout, Link, Wrapper } from './style';
 import { navbar } from '../../utils/navbar';
 import { BrandName } from '../Generic/BrandName';
 import { Button } from '../Generic/Button';
+import MobileMenu from '../../assets/icons/navbarMenu.svg';
 
 export const Navbar = () => {
   const location = useLocation();
@@ -28,6 +29,9 @@ export const Navbar = () => {
         </Wrapper>
         <Wrapper onClick={() => navigate('/login')}>
           <Button border>Kirish</Button>
+        </Wrapper>
+        <Wrapper mobile>
+          <img src={MobileMenu} alt='1' />
         </Wrapper>
       </Container>
       <Outlet />
