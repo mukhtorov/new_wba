@@ -36,6 +36,7 @@ Wrapper.Description = styled.div`
   text-align: center;
   color: #514d48;
   margin-bottom: ${({ smallb }) => (smallb ? '8px' : '24px')};
+  display: ${({ isShow }) => isShow && 'none'};
 `;
 Wrapper.Blue = styled.div`
   display: inline;
