@@ -1,6 +1,9 @@
 import { Generic } from '../pages/Generic';
 import Asosiy from '../pages/Asosiy';
 import Login from '../pages/Login';
+import Kurslarimiz from '../components/Kuslarmiz';
+import Natijalar from '../components/Natijalar';
+import BizningJamoa from '../components/BizningJamoa';
 
 export const navbar = [
   {
@@ -14,21 +17,21 @@ export const navbar = [
     id: 2,
     title: 'Kurslarimiz',
     pathname: '/kurslarimiz',
-    Element: Generic,
+    Element: Kurslarimiz,
     hidden: false,
   },
   {
     id: 3,
     title: 'Natijalar',
     pathname: '/natijalar',
-    Element: Generic,
+    Element: Natijalar,
     hidden: false,
   },
   {
     id: 4,
     title: 'Bizning jamoa',
     pathname: '/bizningjamoa',
-    Element: Generic,
+    Element: BizningJamoa,
     hidden: false,
   },
   {

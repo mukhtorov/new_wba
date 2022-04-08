@@ -15,6 +15,7 @@ export const Container = styled.div`
   filter: drop-shadow(4px 8px 16px rgba(0, 118, 245, 0.4));
   border-radius: 10px;
   cursor: pointer;
+  background: ${({ bg }) => bg && `var(--colorBlue)`};
   transition: all 0.3s, transform 0;
   :active {
     transform: scale(0.95);

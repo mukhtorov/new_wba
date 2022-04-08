@@ -45,6 +45,13 @@ export const Body = styled.div`
   }
   @media (max-width: 900px) {
     flex-direction: column;
+    height: 600px;
+  }
+  @media (max-width: 800px) {
+    height: 500px;
+  }
+  @media (max-width: 600px) {
+    height: 400px;
   }
 `;
 Body.Left = styled.div`

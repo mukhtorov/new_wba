@@ -12,6 +12,7 @@ export const Button = ({
   ml,
   mt,
   mb,
+  bg,
 }) => {
   return (
     <Container
@@ -23,6 +24,7 @@ export const Button = ({
       border={border}
       width={width}
       height={height}
+      bg={bg}
     >
       {children}
     </Container>

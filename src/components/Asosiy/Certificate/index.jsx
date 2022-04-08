@@ -1,6 +1,6 @@
 import React from 'react';
 import { Wrapper, Header, Body } from './style';
-import certificate from '../../../assets/imgs/certificate.png';
+import certificate from '../../../assets/imgs/certificate.jpg';
 
 const Certificate = () => {
   return (
