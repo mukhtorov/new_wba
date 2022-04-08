@@ -1,5 +1,20 @@
 import styled from 'styled-components';
 
+export const Wrapper = styled.div``;
+Wrapper.Title = styled.div`
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  letter-spacing: -0.06em;
+  color: #1b1a18;
+  margin-bottom: 24px;
+  @media (max-width: 620px) {
+    font-size: 33px;
+    line-height: 40px;
+  }
+`;
 export const Container = styled.div`
   display: flex;
   width: 100%;
@@ -34,6 +49,9 @@ Left.Title = styled.div`
     font-size: 19px;
     line-height: 28px;
     color: #1b1a18;
+  }
+  @media (max-width: 800px) {
+    margin-top: 21px;
   }
 `;
 
