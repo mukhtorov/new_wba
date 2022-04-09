@@ -7,9 +7,14 @@ export const Wrapper = styled.div`
   flex-direction: column;
   align-items: center;
   padding: 0 16px;
+  position: relative;
+  @media (min-width: 700px) {
+    top: ${({ mt }) => mt && '100px'};
+  }
   :hover {
     box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.15);
   }
+  box-shadow: ${({ bsh }) => bsh && '0px 0px 30px -10px rgba(0, 0, 0, 0.15)'};
 `;
 Wrapper.Img = styled.img`
   width: 150px;

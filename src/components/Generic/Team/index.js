@@ -6,9 +6,9 @@ import github from '../../../assets/icons/github.svg';
 import youtube from '../../../assets/icons/youtube.svg';
 import { Wrapper } from './style';
 
-const Team = ({ name, type, description }) => {
+const Team = ({ name, type, description, mt, bsh }) => {
   return (
-    <Wrapper>
+    <Wrapper bsh={bsh} mt={mt}>
       <Wrapper.Img src={person} />
       <Wrapper.Name>{name}</Wrapper.Name>
       <Wrapper.Type>{type}</Wrapper.Type>
