@@ -14,6 +14,7 @@ const Cards = () => {
           type={value.type}
           description={value.description}
           place={value.place}
+          pathname={value.pathname}
         />
       ))}
     </Container>

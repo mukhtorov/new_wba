@@ -1,0 +1,100 @@
+[
+  {
+    "id": 1,
+    "title": "1. Kotlin dasturlash tiliga kirish JDK va Intellij IDEA",
+    "shortTitle": "1. Kotlin dasturlash til...",
+    "src": "https://www.youtube.com/embed/NsydPMykpUk",
+    "time": "19:47"
+  },
+  {
+    "id": 2,
+    "title": "2. Ma'lumot turları. val vs var.",
+    "src": "https://www.youtube.com/embed/qlTVOhW3Hss",
+    "shortTitle": "1. Ma'lumot turları...",
+    "time": "17:43"
+  },
+  {
+    "id": 3,
+    "title": "3. Char, Boolean, String",
+    "src": "https://www.youtube.com/embed/df6aiTgQ0-U",
+    "shortTitle": "1. Char Boolean...",
+    "time": "17:26"
+  },
+  {
+    "id": 4,
+    "title": "4. Bir ma'lumot turidan ikkinchisiga o'tish",
+    "src": "https://www.youtube.com/embed/FmKU_kA3bAw",
+    "shortTitle": "1. Bir ma'lumot turid...",
+    "time": "25:25"
+  },
+  {
+    "id": 5,
+    "title": "5. Matematik amallar bajarish.",
+    "src": "https://www.youtube.com/embed/qvvUpMjy4GA",
+    "shortTitle": "5. Matematik amal...",
+    "time": "22:40"
+  },
+  {
+    "id": 6,
+    "title": "6. Matematik funksiyalar ustida masalalar yechish",
+    "src": "https://www.youtube.com/embed/VSmafGIas88",
+    "shortTitle": "6. Matematik funksi...",
+    "time": "21:15"
+  },
+  {
+    "id": 7,
+    "title": "7. Shart operatorlari",
+    "src": "https://www.youtube.com/embed/mosTZL54WFs",
+    "shortTitle": "7. Shart operator...",
+    "time": "21:15"
+  },
+  {
+    "id": 8,
+    "title": "8. Shart operatorlari ustida amaliy dars",
+    "src": "https://www.youtube.com/embed/kVaFMevJ4TY",
+    "shortTitle": "1. Shart operator...",
+    "time": "22:09"
+  },
+  {
+    "id": 9,
+    "title": "9. When operatori.",
+    "src": "https://www.youtube.com/embed/-9jQOE_H-rs",
+    "shortTitle": "1. When operatori...",
+    "time": "13:24"
+  },
+  {
+    "id": 10,
+    "title": "10. Range: Oraliqlar.",
+    "src": "https://www.youtube.com/embed/_rNNiIyqjV0",
+    "shortTitle": "10. Range: Oraliqlar...",
+    "time": "11:41"
+  },
+  {
+    "id": 11,
+    "title": "11. Amaliy dars, when operatori ustida masalalar yechish",
+    "src": "https://www.youtube.com/embed/7RXtXuctQuI",
+    "shortTitle": "11. Amaliy dars...",
+    "time": "16:47"
+  },
+  {
+    "id": 12,
+    "title": "12. Sikl operatorlari.",
+    "src": "https://www.youtube.com/embed/uWYrDnWSLJE",
+    "shortTitle": "12. Sikl operatorlari...",
+    "time": "15:49"
+  },
+  {
+    "id": 13,
+    "title": "13. Sikl operatorlar ustida 1 - amaliy dars.",
+    "src": "https://www.youtube.com/embed/Kkisg_d_Hvg",
+    "shortTitle": "13. Sikl opera...",
+    "time": "19:30"
+  },
+  {
+    "id": 14,
+    "title": "14. Sikl operatorlari ustida 2- amaliy dars",
+    "src": "https://www.youtube.com/embed/6Xct6jmD2ls",
+    "shortTitle": "14. Sikl opera...",
+    "time": "19:48"
+  }
+]

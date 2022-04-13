@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "title": "1. HTML nima?",
+    "shortTitle": "1. HTML nima?...",
+    "src": "https://www.youtube.com/embed/4Usso0EThIM",
+    "time": "2:03"
+  },
+  {
+    "id": 2,
+    "title": "2. HTML Tag | head, body, html, meta.",
+    "src": "https://www.youtube.com/embed/OWh-5uaPnL0",
+    "shortTitle": "2. HTML Tags...",
+    "time": "8:29"
+  },
+  {
+    "id": 3,
+    "title": "3. HTML Boshlang’ich taglari.(asosiy ishlatiladigon taglar)",
+    "src": "https://www.youtube.com/embed/Suf7QXVvcp8",
+    "shortTitle": "3. HTML Boshlang’ich...",
+    "time": "12:03"
+  },
+  {
+    "id": 4,
+    "title": "4.  Image va Link ",
+    "src": "https://www.youtube.com/embed/ZEdRpSiL3os",
+    "shortTitle": "1.  Image va Link...",
+    "time": "12:01"
+  },
+  {
+    "id": 5,
+    "title": "5. Video, Audio, Iframe ",
+    "src": "https://www.youtube.com/embed/64RytzOkMDE",
+    "shortTitle": "5. Video, Audio...",
+    "time": "14:01"
+  },
+  {
+    "id": 6,
+    "title": "6. HTML List. Ordered, Unordered, Description Lists",
+    "src": "https://www.youtube.com/embed/wClClhil5Bo",
+    "shortTitle": "6. HTML List...",
+    "time": "6:46"
+  },
+  {
+    "id": 7,
+    "title": "7. HTML Table ",
+    "src": "https://www.youtube.com/embed/f6mSknomej4",
+    "shortTitle": "7. HTML Table ...",
+    "time": "8:57"
+  },
+  {
+    "id": 8,
+    "title": "8. Div va span",
+    "src": "https://www.youtube.com/embed/2s2hY1oFVrA",
+    "shortTitle": "18. Div va span...",
+    "time": "4:09"
+  },
+  {
+    "id": 9,
+    "title": "9. HTML Forms, Inputs",
+    "src": "https://www.youtube.com/embed/T9-H8IrFe5c",
+    "shortTitle": "9. HTML Forms...",
+    "time": "11:02"
+  },
+  {
+    "id": 10,
+    "title": "10. HTML Formatting",
+    "src": "https://www.youtube.com/embed/j1ayX5i3A_8",
+    "shortTitle": "10. HTML Formatting...",
+    "time": "3:47"
+  },
+  {
+    "id": 11,
+    "title": "11. Meta taglar. Htmlda meta taglarning ishlatilish o'rni",
+    "src": "https://www.youtube.com/embed/4m8ImTU1-aI",
+    "shortTitle": "11. Meta taglar...",
+    "time": "4:10"
+  },
+  {
+    "id": 12,
+    "title": "12. Command va indentation",
+    "src": "https://www.youtube.com/embed/3CoMFdEzAto",
+    "shortTitle": "12. Command va inde...",
+    "time": "2:57"
+  }
+]

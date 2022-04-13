@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
+import { Drawer } from 'antd';
 
 export const Layout = styled.div`
   display: flex;
@@ -16,7 +17,7 @@ export const Container = styled.div`
   background: var(--background);
   flex-wrap: wrap;
   padding: 0 8%;
-  z-index: 9999;
+  z-index: ${({ setZ }) => (setZ ? '1' : '9999')};
 `;
 export const Wrapper = styled.div`
   display: flex;
@@ -44,4 +45,14 @@ export const Link = styled(NavLink)`
   text-decoration: none;
   margin: 0 2px;
   white-space: nowrap;
+`;
+Container.Drawer = styled(Drawer)`
+  .ant-drawer-content-wrapper {
+    width: 60%;
+  }
+`;
+Container.MobileWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  grid-gap: 10px;
 `;

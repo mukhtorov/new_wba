@@ -2,8 +2,9 @@ import React from 'react';
 import { Wrapper } from './style';
 import android from '../../../assets/imgs/android.png';
 import Button from '../Button';
+import { Link } from 'react-router-dom';
 
-const Courses = ({ type, description, date, place, isShow }) => {
+const Courses = ({ type, description, date, place, isShow, pathname }) => {
   return (
     <Wrapper>
       <Wrapper.Img src={android} />
@@ -15,9 +16,14 @@ const Courses = ({ type, description, date, place, isShow }) => {
       <Wrapper.Description isShow={isShow} smallb>
         Qolgan joylar: <Wrapper.Blue>{place}</Wrapper.Blue>
       </Wrapper.Description>
-      <Button border mt='24' mb='40' width='60%'>
-        Batafsil
-      </Button>
+      <Link
+        to={pathname + '/1' || '/'}
+        style={{ width: '60%', margin: 'auto' }}
+      >
+        <Button border mt='24' mb='40' width='100%'>
+          Batafsil
+        </Button>
+      </Link>
     </Wrapper>
   );
 };

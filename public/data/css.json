@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "title": "1. CSS Nima?",
+    "shortTitle": "1. CSS Nima?...",
+    "src": "https://www.youtube.com/embed/GWcl_m65nfY",
+    "time": "2:08"
+  },
+  {
+    "id": 2,
+    "title": "2. Color va font.",
+    "src": "https://www.youtube.com/embed/SF1oymNHFiU",
+    "shortTitle": "2. Color va font....",
+    "time": "12:05"
+  },
+  {
+    "id": 3,
+    "title": "3. Class va Id",
+    "src": "https://www.youtube.com/embed/yHda5oGMjxM",
+    "shortTitle": "3. Class va Id...",
+    "time": "11:34"
+  },
+  {
+    "id": 4,
+    "title": "4.  Padding vs margin.",
+    "src": "https://www.youtube.com/embed/fYtBFrTOSl0",
+    "shortTitle": "4.  Padding vs margin...",
+    "time": "11:09"
+  },
+  {
+    "id": 5,
+    "title": "5. Link va navigation",
+    "src": "https://www.youtube.com/embed/UAWGN-9bRtQ",
+    "shortTitle": "5. Link va navigati...",
+    "time": "25:29"
+  },
+  {
+    "id": 6,
+    "title": "6. Flexbox",
+    "src": "https://www.youtube.com/embed/HOLxPaooPSU",
+    "shortTitle": "6. Flexbox...",
+    "time": "14:05"
+  },
+  {
+    "id": 7,
+    "title": "7. Grid ",
+    "src": "https://www.youtube.com/embed/PA567XWuWRI",
+    "shortTitle": "7. Grid",
+    "time": "32:50"
+  },
+  {
+    "id": 8,
+    "title": "8. Position | static relative absolute fixed sticky",
+    "src": "https://www.youtube.com/embed/nQppkiZUTJY",
+    "shortTitle": "8. Position...",
+    "time": "8:38"
+  },
+  {
+    "id": 9,
+    "title": "9. Form CSS",
+    "src": "https://www.youtube.com/embed/Z5dxQEpDw4w",
+    "shortTitle": "9. Form CSS...",
+    "time": "29:39"
+  },
+
+  {
+    "id": 10,
+    "title": "10. Inspect",
+    "src": "https://www.youtube.com/embed/v4rBS_3rY8g",
+    "shortTitle": "10. Inspect...",
+    "time": "6:40"
+  },
+  {
+    "id": 11,
+    "title": "11. CSS :berofe va :after",
+    "src": "https://www.youtube.com/embed/13xdAu_FJGs",
+    "shortTitle": "11. CSS :ber...",
+    "time": "19:02"
+  },
+  {
+    "id": 12,
+    "title": "12. CSS Animation",
+    "src": "https://www.youtube.com/embed/GtKZAAb5zy4",
+    "shortTitle": "12. CSS Animation...",
+    "time": "33:06"
+  },
+  {
+    "id": 13,
+    "title": "13. SASS & SCSS",
+    "src": "https://www.youtube.com/embed/XT29yua3l0U",
+    "shortTitle": "13. SASS & SCSS...",
+    "time": "1:09:12"
+  },
+  {
+    "id": 14,
+    "title": "14. HTML + CCS da qilingan ajoyib website",
+    "src": "https://www.youtube.com/embed/hXy5K28lVhU",
+    "shortTitle": "14. HTML + CCS...",
+    "time": "1:47:27"
+  }
+]

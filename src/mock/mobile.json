@@ -1,0 +1,100 @@
+[
+  {
+    "id": 1,
+    "title": "1. Kotlin dasturlash tiliga kirish JDK va Intellij IDEA",
+    "shortTitle": "1. Kotlin dasturlash til...",
+    "src": "https://www.youtube.com/embed/NsydPMykpUk",
+    "time": "19:47"
+  },
+  {
+    "id": 2,
+    "title": "2. Ma'lumot turları. val vs var.",
+    "src": "https://www.youtube.com/embed/qlTVOhW3Hss",
+    "shortTitle": "1. Ma'lumot turları...",
+    "time": "17:43"
+  },
+  {
+    "id": 3,
+    "title": "3. Char, Boolean, String",
+    "src": "https://www.youtube.com/embed/df6aiTgQ0-U",
+    "shortTitle": "1. Char Boolean...",
+    "time": "17:26"
+  },
+  {
+    "id": 4,
+    "title": "4. Bir ma'lumot turidan ikkinchisiga o'tish",
+    "src": "https://www.youtube.com/embed/FmKU_kA3bAw",
+    "shortTitle": "1. Bir ma'lumot turid...",
+    "time": "25:25"
+  },
+  {
+    "id": 5,
+    "title": "5. Matematik amallar bajarish.",
+    "src": "https://www.youtube.com/embed/qvvUpMjy4GA",
+    "shortTitle": "5. Matematik amal...",
+    "time": "22:40"
+  },
+  {
+    "id": 6,
+    "title": "6. Matematik funksiyalar ustida masalalar yechish",
+    "src": "https://www.youtube.com/embed/VSmafGIas88",
+    "shortTitle": "6. Matematik funksi...",
+    "time": "21:15"
+  },
+  {
+    "id": 7,
+    "title": "7. Shart operatorlari",
+    "src": "https://www.youtube.com/embed/mosTZL54WFs",
+    "shortTitle": "7. Shart operatorla...",
+    "time": "21:15"
+  },
+  {
+    "id": 8,
+    "title": "1. Welcome to the Frontend development",
+    "src": "https://www.youtube.com/embed/X8sqQVbZuPw",
+    "shortTitle": "1. Welcome to the Fron...",
+    "time": "21:15"
+  },
+  {
+    "id": 9,
+    "title": "1. Welcome to the Frontend development",
+    "src": "https://www.youtube.com/embed/gycT9YTMmK0",
+    "shortTitle": "1. Welcome to the Fron...",
+    "time": "21:15"
+  },
+  {
+    "id": 10,
+    "title": "1. Welcome to the Frontend development",
+    "src": "https://www.youtube.com/embed/X8sqQVbZuPw",
+    "shortTitle": "1. Welcome to the Fron...",
+    "time": "21:15"
+  },
+  {
+    "id": 11,
+    "title": "1. Welcome to the Frontend development",
+    "src": "https://www.youtube.com/embed/4m8ImTU1-aI",
+    "shortTitle": "1. Welcome to the Fron...",
+    "time": "21:15"
+  },
+  {
+    "id": 12,
+    "title": "1. Welcome to the Frontend development",
+    "src": "https://www.youtube.com/embed/tLi0rH0wmPY",
+    "shortTitle": "1. Welcome to the Fron...",
+    "time": "21:15"
+  },
+  {
+    "id": 13,
+    "title": "1. Welcome to the Frontend development",
+    "src": "https://www.youtube.com/embed/ssiPio9PLpc",
+    "shortTitle": "1. Welcome to the Fron...",
+    "time": "21:15"
+  },
+  {
+    "id": 14,
+    "title": "1. Welcome to the Frontend development",
+    "src": "https://www.youtube.com/embed/0Oay4M6ciQ8",
+    "shortTitle": "1. Welcome to the Fron...",
+    "time": "21:15"
+  }
+]

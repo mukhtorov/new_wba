@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "title": "1.  ReactJS nima va qanday ishlaydi?",
+    "shortTitle": "1.  ReactJS nima...",
+    "src": "https://www.youtube.com/embed/sF1lcqUzRxE",
+    "time": "53:45"
+  },
+  {
+    "id": 2,
+    "title": "2.  Props and components",
+    "src": "https://www.youtube.com/embed/N4uR6dQ89AI",
+    "shortTitle": "2.  Props....",
+    "time": "38:32"
+  },
+  {
+    "id": 3,
+    "title": " 3. Fruits project(props)",
+    "src": "https://www.youtube.com/embed/WqzD6cyIGC8",
+    "shortTitle": "3. Fruits project...",
+    "time": "1:05:20"
+  },
+  {
+    "id": 4,
+    "title": "4. React state",
+    "src": "https://www.youtube.com/embed/VFNjZQNOGcs",
+    "shortTitle": "4. React state...",
+    "time": "57:05"
+  },
+  {
+    "id": 5,
+    "title": "5. React render",
+    "src": "https://www.youtube.com/embed/q-wlEboY_44",
+    "shortTitle": "5. React ren...",
+    "time": "46:34"
+  },
+  {
+    "id": 6,
+    "title": "6. React map",
+    "src": "https://www.youtube.com/embed/ISWwZYgw9wo",
+    "shortTitle": "6. React map...",
+    "time": "33:18"
+  },
+  {
+    "id": 7,
+    "title": "7. React Styled-components - 1",
+    "src": "https://www.youtube.com/embed/MqbGnUuhtVU",
+    "shortTitle": "7. React Styled-compo...",
+    "time": "1:15:32"
+  },
+  {
+    "id": 8,
+    "title": "8. React || styled-components - 2",
+    "src": "https://www.youtube.com/embed/Ru7tEeezGEo",
+    "shortTitle": "8. React || styled...",
+    "time": "13:40"
+  },
+  {
+    "id": 9,
+    "title": "9. Styled Components Project",
+    "src": "https://www.youtube.com/embed/ZF7CI0GTI2I",
+    "shortTitle": "9. Styled Components",
+    "time": "1:05:13"
+  },
+
+  {
+    "id": 10,
+    "title": "10. React Hooks",
+    "src": "https://www.youtube.com/embed/Gp1lsaDLusY",
+    "shortTitle": "10. React Hooks...",
+    "time": "38:47"
+  },
+  {
+    "id": 11,
+    "title": "11. Context API",
+    "src": "https://www.youtube.com/embed/6aiAewp21YY",
+    "shortTitle": "11. Context API...",
+    "time": "1:23:54"
+  },
+  {
+    "id": 12,
+    "title": "12. ContextApi project",
+    "src": "https://www.youtube.com/embed/iWz31_ucP_I",
+    "shortTitle": "12. ContextApi project",
+    "time": "1:22:57"
+  },
+  {
+    "id": 13,
+    "title": "13. useReducer",
+    "src": "https://www.youtube.com/embed/0Oay4M6ciQ8",
+    "shortTitle": "13. useReducer",
+    "time": "45:36"
+  }
+]
