@@ -6,6 +6,10 @@ export const Header = styled.div`
   align-items: center;
   justify-content: space-between;
   margin: 83px 0 24px 0;
+  position: relative;
+  @media (max-width: 800px) {
+    margin-top: 200px;
+  }
 `;
 Header.Title = styled.div`
   font-family: 'Fira Code';
@@ -37,9 +41,51 @@ Header.Provider = styled.div`
 export const Container = styled.div`
   display: grid;
   grid-gap: 1rem;
-
   grid-template-columns: repeat(3, 1fr);
   @media (max-width: 800px) {
     grid-template-columns: repeat(1, 1fr);
+  }
+`;
+
+export const FuntextWrapper = styled.div`
+  display: flex;
+  position: absolute;
+  top: -30px;
+  left: 15%;
+  @media (max-width: 1050px) {
+    left: 25%;
+  }
+  @media (max-width: 630px) {
+    left: 40%;
+  }
+`;
+FuntextWrapper.FunImg = styled.img`
+  @media (max-width: 1050px) {
+    width: 110px;
+  }
+  @media (max-width: 630px) {
+    width: 50px;
+    height: 60px;
+  }
+`;
+FuntextWrapper.Text = styled.div`
+  width: 300px;
+  font-family: 'Chilanka';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  color: #514d48;
+  @media (max-width: 1050px) {
+    font-size: 17px;
+    line-height: 23px;
+    width: 200px;
+    margin-left: 20px;
+  }
+  @media (max-width: 630px) {
+    width: 150px;
+    font-size: 14px;
+    line-height: 20px;
   }
 `;

@@ -7,6 +7,7 @@ export const Container = styled.div`
   @media (max-width: 1300px) {
     flex-direction: column-reverse;
     align-items: center;
+    margin-bottom: 200px;
   }
 `;
 export const Left = styled.div`
@@ -14,6 +15,7 @@ export const Left = styled.div`
   flex-direction: column;
   flex: 1;
   justify-content: center;
+  position: relative;
 `;
 
 Left.Text = styled.div`
@@ -103,5 +105,45 @@ Image.Set3 = styled(Image)`
 
 export const Line = styled(line)`
   position: relative;
-  top: -45px;
+  top: -100px;
+  right: 0;
+  @media (max-width: 800px) {
+    transform: rotateY(180deg);
+    width: 70px;
+    height: 70px;
+    top: -50px;
+    order: 1;
+  }
+`;
+export const FunTextWrapper = styled.div`
+  position: absolute;
+  bottom: -80px;
+  right: 100px;
+  display: flex;
+  @media (max-width: 1300px) {
+    bottom: -225px;
+    right: 100px;
+  }
+  @media (max-width: 800px) {
+    right: 20%;
+    left: 20%;
+    margin-bottom: 90px;
+  }
+`;
+export const FunText = styled.div`
+  font-family: Italic;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  width: 200px;
+  letter-spacing: 0.02em;
+  color: #514d48;
+  @media (max-width: 800px) {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    width: 269px;
+    order: 2;
+  }
 `;

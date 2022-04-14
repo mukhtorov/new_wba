@@ -1,21 +1,37 @@
 import React, { useState, useEffect } from 'react';
-import { Container, Image, ImgWrapper, Left, Line, Right } from './style';
+import {
+  Container,
+  FunText,
+  FunTextWrapper,
+  Image,
+  ImgWrapper,
+  Left,
+  Line,
+  Right,
+} from './style';
 import BlueText from '../../Generic/BlueText';
 import Button from '../../Generic/Button';
 import img from '../../../assets/imgs/mainPhoto.png';
-import { FunText } from '../style';
 
 export const Main = () => {
   const [fun, setFun] = useState(localStorage.getItem('fun') || false);
-  useEffect(() => {
-    console.log('render');
-    setFun(localStorage.getItem('fun'));
-  }, [localStorage.getItem('fun')]);
 
+  // var funStorage = localStorage.getItem('fun');
+
+  // // useEffect(() => {
+  // //   console.log('render');
+  // //   setFun(localStorage.getItem('fun'));
+  // // }, [funStorage]);
+
+  // window.addEventListener(
+  //   'storage',
+  //   () => {
+  //     console.log(localStorage.getItem('fun'), 'test');
+  //   },
+  //   false
+  // );
   window.addEventListener('storage', () => {
-    // When local storage changes, dump the list to
-    // the console.
-    console.log(JSON.parse(window.localStorage.getItem('fun')), 'test');
+    alert('localstorage changed!');
   });
 
   return (
@@ -33,13 +49,15 @@ export const Main = () => {
             <Button class='nav' display={'true'} width={'30%'} border>
               Aloqa
             </Button>
-            {/* <Line /> */}
           </div>
-          {/* <FunText display={fun}>
-            siz vapshe hech narsa bilmasangizam o’qito’ramiz (sizam vruchat
-            qvorarsiz )
-          </FunText> */}
         </Left.ButtonWrapper>
+        <FunTextWrapper>
+          <FunText>
+            {'siz'} vapshe hech narsa bilmasangizam o’qito’ramiz (sizam vruchat
+            qvorarsiz&#128521;)
+          </FunText>
+          <Line />
+        </FunTextWrapper>
       </Left>
       <Right>
         <ImgWrapper>

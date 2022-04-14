@@ -90,7 +90,64 @@ Body.Right.Paragraph = styled.div`
   line-height: 26px;
   color: #514d48;
   width: 60%;
+  position: relative;
   @media (max-width: 900px) {
     width: 100%;
+  }
+`;
+
+export const FuntextWrapper = styled.div`
+  display: flex;
+  position: absolute;
+  top: 100px;
+  left: 10%;
+  @media (max-width: 900px) {
+    top: 80px;
+  }
+  /* @media (max-width: 1550px) {
+    left: 40%;
+  }
+  @media (max-width: 1150px) {
+    left: 50%;
+    top: -80px;
+  }
+  @media (max-width: 750px) {
+    left: 30%;
+  } */
+`;
+FuntextWrapper.FunImg = styled.img`
+  width: 250px;
+  @media (max-width: 1550px) {
+    width: 151px;
+  }
+  @media (max-width: 1050px) {
+    width: 110px;
+  }
+  @media (max-width: 630px) {
+    width: 50px;
+    height: 60px;
+    transform: rotateZ(-5deg);
+  }
+`;
+FuntextWrapper.Text = styled.div`
+  width: 227px;
+  font-family: 'Chilanka';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  color: #514d48;
+  margin-left: 20px;
+  @media (max-width: 1050px) {
+    font-size: 17px;
+    line-height: 23px;
+    width: 200px;
+    margin-left: 20px;
+  }
+  @media (max-width: 630px) {
+    width: 150px;
+    font-size: 14px;
+    line-height: 20px;
   }
 `;

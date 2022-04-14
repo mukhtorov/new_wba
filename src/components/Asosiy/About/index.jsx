@@ -1,7 +1,15 @@
 import React from 'react';
-// import { useLocation } from 'react-router-dom';
-import { Container, Image, ImgWrapper, Left, Right, Wrapper } from './style';
+import {
+  Container,
+  FunTextWrapper,
+  Image,
+  ImgWrapper,
+  Left,
+  Right,
+  Wrapper,
+} from './style';
 import img from '../../../assets/imgs/mainPhoto.png';
+import aboutLine from '../../../assets/imgs/aboutLine.js.png';
 
 export const Main = () => {
   return (
@@ -17,6 +25,13 @@ export const Main = () => {
           </ImgWrapper>
         </Right>
         <Left>
+          <FunTextWrapper>
+            <FunTextWrapper.Line src={aboutLine} />
+            <FunTextWrapper.Txt>
+              bizi yomonlashsa ishanmanglar, kelib ko’ringlar balki undanam
+              yomondirmiz &#128540;
+            </FunTextWrapper.Txt>
+          </FunTextWrapper>
           <Left.Title>Biz haqimizda faqat bizdan eshiting </Left.Title>
           <Left.Text>
             Eget nam quisque lobortis ipsum sollicitudin. Ultricies morbi platea
