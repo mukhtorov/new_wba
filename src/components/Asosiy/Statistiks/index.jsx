@@ -1,6 +1,7 @@
 import React from 'react';
-import { Card, Container, Count, Title } from './style';
+import { Card, Container, Count, FunTextWrapper, Title } from './style';
 import { statistiks } from '../../../mock/statistiks';
+import Line from '../../../assets/imgs/statistikLine.png';
 
 export const Statistiks = () => {
   return (
@@ -12,6 +13,12 @@ export const Statistiks = () => {
           <Title>{title}</Title>
         </Card>
       ))}
+      <FunTextWrapper>
+        <FunTextWrapper.FunLine src={Line} />
+        <FunTextWrapper.Text>
+          85 % bitiruvchilar hozir ishlashyapti, sizda nima gaplar &#129299;
+        </FunTextWrapper.Text>
+      </FunTextWrapper>
     </Container>
   );
 };

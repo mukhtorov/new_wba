@@ -1,12 +1,19 @@
 import React from 'react';
 import CoursesCard from '../../Generic/CoursesCard/index.js';
 import { data } from '../../../mock/courses.js';
-import { Wrapper, Header, Container } from './style.js';
+import line from '../../../assets/imgs/kurslarLine.png';
+import { Wrapper, Header, Container, FuntextWrapper } from './style.js';
 
 const Course = () => {
   return (
     <Wrapper>
       <Header>
+        <FuntextWrapper>
+          <FuntextWrapper.FunImg src={line} />
+          <FuntextWrapper.Text>
+            bu dollarni kursimas, o’quv kursi. (10820 &#129297;)
+          </FuntextWrapper.Text>
+        </FuntextWrapper>
         <Header.Title>Kurslar</Header.Title>
         <Header.Provider>Barcha kurslar {'>'}</Header.Provider>
       </Header>
