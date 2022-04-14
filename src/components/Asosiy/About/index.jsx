@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import {
   Container,
   FunTextWrapper,
@@ -10,8 +10,10 @@ import {
 } from './style';
 import img from '../../../assets/imgs/mainPhoto.png';
 import aboutLine from '../../../assets/imgs/aboutLine.js.png';
+import ModeContext from '../../../context/StateMode';
 
 export const Main = () => {
+  const [mode] = useContext(ModeContext);
   return (
     <Wrapper>
       <Wrapper.Title>Biz haqimizda</Wrapper.Title>
@@ -25,13 +27,15 @@ export const Main = () => {
           </ImgWrapper>
         </Right>
         <Left>
-          <FunTextWrapper>
-            <FunTextWrapper.Line src={aboutLine} />
-            <FunTextWrapper.Txt>
-              bizi yomonlashsa ishanmanglar, kelib ko’ringlar balki undanam
-              yomondirmiz &#128540;
-            </FunTextWrapper.Txt>
-          </FunTextWrapper>
+          {mode.fun && (
+            <FunTextWrapper>
+              <FunTextWrapper.Line src={aboutLine} />
+              <FunTextWrapper.Txt>
+                bizi yomonlashsa ishanmanglar, kelib ko’ringlar balki undanam
+                yomondirmiz &#128540;
+              </FunTextWrapper.Txt>
+            </FunTextWrapper>
+          )}
           <Left.Title>Biz haqimizda faqat bizdan eshiting </Left.Title>
           <Left.Text>
             Eget nam quisque lobortis ipsum sollicitudin. Ultricies morbi platea

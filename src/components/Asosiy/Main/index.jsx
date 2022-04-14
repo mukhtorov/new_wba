@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useContext } from 'react';
 import {
   Container,
   FunText,
@@ -12,28 +12,10 @@ import {
 import BlueText from '../../Generic/BlueText';
 import Button from '../../Generic/Button';
 import img from '../../../assets/imgs/mainPhoto.png';
+import ModeContext from '../../../context/StateMode';
 
 export const Main = () => {
-  const [fun, setFun] = useState(localStorage.getItem('fun') || false);
-
-  // var funStorage = localStorage.getItem('fun');
-
-  // // useEffect(() => {
-  // //   console.log('render');
-  // //   setFun(localStorage.getItem('fun'));
-  // // }, [funStorage]);
-
-  // window.addEventListener(
-  //   'storage',
-  //   () => {
-  //     console.log(localStorage.getItem('fun'), 'test');
-  //   },
-  //   false
-  // );
-  window.addEventListener('storage', () => {
-    alert('localstorage changed!');
-  });
-
+  const [mode] = useContext(ModeContext);
   return (
     <Container>
       <Left>
@@ -51,13 +33,15 @@ export const Main = () => {
             </Button>
           </div>
         </Left.ButtonWrapper>
-        <FunTextWrapper>
-          <FunText>
-            {'siz'} vapshe hech narsa bilmasangizam o’qito’ramiz (sizam vruchat
-            qvorarsiz&#128521;)
-          </FunText>
-          <Line />
-        </FunTextWrapper>
+        {mode.fun && (
+          <FunTextWrapper>
+            <FunText>
+              {'siz'} vapshe hech narsa bilmasangizam o’qito’ramiz (sizam
+              vruchat qvorarsiz&#128521;)
+            </FunText>
+            <Line />
+          </FunTextWrapper>
+        )}
       </Left>
       <Right>
         <ImgWrapper>

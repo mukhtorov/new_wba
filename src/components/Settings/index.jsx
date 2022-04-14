@@ -1,10 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { Container, Icon, Drawer, Close, Header, AntSwitch } from './style';
+import ModeContext from '../../context/StateMode';
 
 export const Settings = () => {
+  const [mode, setMode] = useContext(ModeContext);
   const [open, setOpen] = useState(false);
   const [dark, setDark] = useState(localStorage.getItem('dark') || false);
-  const [fun, setFun] = useState(localStorage.getItem('fun') || false);
+  const [fun, setFun] = useState(localStorage.getItem('fun') || true);
 
   const showDrawer = () => {
     setOpen(true);
@@ -18,10 +20,13 @@ export const Settings = () => {
   const changeMode = () => {
     localStorage.setItem('dark', !dark);
     setDark(!dark);
+
+    setMode({ ...mode, darkMode: JSON.parse(localStorage.getItem('dark')) });
   };
   const changeFun = () => {
     localStorage.setItem('fun', !fun);
     setFun(!fun);
+    setMode({ ...mode, fun: JSON.parse(localStorage.getItem('fun')) });
   };
 
   return (

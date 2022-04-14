@@ -11,7 +11,6 @@ const VideoPlay = () => {
       .then((res) => res.json())
       .then((data) => setData(data));
   }, []);
-  console.log(data);
   return (
     <Wrapper>
       <Wrapper.Header>
