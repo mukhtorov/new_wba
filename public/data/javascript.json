@@ -1,101 +1,101 @@
 [
   {
-    "id": 1,
-    "title": "1. Node js installation",
-    "shortTitle": "1. Node js instal...",
+    "id": 0,
+    "title": "Node js installation",
+    "shortTitle": "Node js instal...",
     "src": "https://www.youtube.com/embed/NRd-sUBbxT0",
     "time": "4:42"
   },
   {
-    "id": 2,
-    "title": "2. JavaScript nima ?",
+    "id": 1,
+    "title": "1. JavaScript nima ?",
     "src": "https://www.youtube.com/embed/Kh6PfBhuLT8",
-    "shortTitle": "2. JavaScript....",
+    "shortTitle": "1. JavaScript....",
     "time": "1:51"
   },
   {
-    "id": 3,
-    "title": "3. JavaScript qanday ishlaydi?",
+    "id": 2,
+    "title": "2. JavaScript qanday ishlaydi?",
     "src": "https://www.youtube.com/embed/EyxW2xRzXGE",
-    "shortTitle": "3. JavaScript qa...",
+    "shortTitle": "2. JavaScript qa...",
     "time": "9:01"
   },
   {
-    "id": 4,
-    "title": "4.  JavaScript va VS Code",
+    "id": 3,
+    "title": "3.  JavaScript va VS Code",
     "src": "https://www.youtube.com/embed/POtE1iyLKCI",
-    "shortTitle": "4.  JavaScript va...",
+    "shortTitle": "3.  JavaScript va...",
     "time": "8:08"
   },
   {
-    "id": 7,
-    "title": "7. (1/2)Varibale nima? ",
+    "id": 4,
+    "title": "4. (1/2)Varibale nima? ",
     "src": "https://www.youtube.com/embed/8GZdSVxxIj4",
-    "shortTitle": "7. (1/2)Varibale ni...",
+    "shortTitle": "4. (1/2)Varibale ni...",
     "time": "15:36"
   },
   {
-    "id": 8,
-    "title": "8. (2/2)Variable va ishlatilish o'rinlari ",
+    "id": 5,
+    "title": "5. (2/2)Variable va ishlatilish o'rinlari ",
     "src": "https://www.youtube.com/embed/RBuaYYknMbM",
-    "shortTitle": "8. (2/2)Variable va is...",
+    "shortTitle": "5. (2/2)Variable va is...",
     "time": "12:01"
   },
   {
-    "id": 5,
-    "title": "5. Arifmetik amallar",
+    "id": 6,
+    "title": "6. Arifmetik amallar",
     "src": "https://www.youtube.com/embed/C_Ew8ZGPuI4",
-    "shortTitle": "5. Arifmetik amall...",
+    "shortTitle": "6. Arifmetik amall...",
     "time": "13:23"
   },
   {
-    "id": 6,
-    "title": "6. String | JS Uzbek | str.length | str.replace | str.slice | typeof",
-    "src": "https://www.youtube.com/embed/HOLxPaooPSU",
-    "shortTitle": "6. Flexbox...",
-    "time": "14:05"
+    "id": 7,
+    "title": "7. String | JS Uzbek | str.length | str.replace | str.slice | typeof",
+    "src": "https://www.youtube.com/embed/DQ0l6_J6_pE",
+    "shortTitle": "7. Flexbox...",
+    "time": "22:49"
   },
   {
-    "id": 9,
-    "title": "9. Array nima?",
+    "id": 8,
+    "title": "8. Array nima?",
     "src": "https://www.youtube.com/embed/dKeIWsBjEDo",
-    "shortTitle": "9. Array nima?",
+    "shortTitle": "8. Array nima?",
     "time": "30:08"
   },
 
   {
-    "id": 10,
-    "title": "10. Functions",
+    "id": 9,
+    "title": "9. Functions",
     "src": "https://www.youtube.com/embed/6DKHmCEymOw",
-    "shortTitle": "10. Functions...",
+    "shortTitle": "9. Functions...",
     "time": "26:01"
   },
   {
-    "id": 11,
-    "title": "11. Scope",
+    "id": 10,
+    "title": "10. Scope",
     "src": "https://www.youtube.com/embed/7ucAbrkT0Ec",
-    "shortTitle": "11. Scope...",
+    "shortTitle": "10. Scope...",
     "time": "9:00"
   },
   {
-    "id": 12,
-    "title": "12. If Statement",
+    "id": 11,
+    "title": "11. If Statement",
     "src": "https://www.youtube.com/embed/gX1ag26AFS0",
-    "shortTitle": "12. If Statement",
+    "shortTitle": "11. If Statement",
     "time": "12:13"
   },
   {
-    "id": 13,
-    "title": "13. Switch Statement",
+    "id": 12,
+    "title": "12. Switch Statement",
     "src": "https://www.youtube.com/embed/4bgAriuuGqo",
-    "shortTitle": "13. Switch Statement",
+    "shortTitle": "12. Switch Statement",
     "time": "14:36"
   },
   {
-    "id": 14,
-    "title": "14. Math",
+    "id": 13,
+    "title": "13. Math",
     "src": "https://www.youtube.com/embed/paxtJDa2sj0",
-    "shortTitle": "14. Math",
+    "shortTitle": "13. Math",
     "time": "15:44"
   }
 ]
