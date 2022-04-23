@@ -3,7 +3,6 @@ import { useNavigate, useParams } from 'react-router-dom';
 import { Wrapper } from './style';
 
 const VideoPlay = () => {
-  const [choosenVideo, setChoosenVideo] = useState(0);
   const [data, setData] = useState([]);
   const { id } = useParams();
   const navigate = useNavigate();
@@ -33,10 +32,10 @@ const VideoPlay = () => {
         <Wrapper.Container.Right>
           {data.map((value) => (
             <Wrapper.Container.Right.Wrapper key={value.id}>
-              <Wrapper.Play active={value.id - 1 === id - 1} />
+              <Wrapper.Play active={value.id - 1 === id - 1 ? 1 : 0} />
               <Wrapper.Container.Right.TitleWrapper>
                 <Wrapper.Container.Right.Title
-                  active={value.id - 1 === id - 1}
+                  active={value.id - 1 === id - 1 ? 1 : 0}
                   onClick={() =>
                     navigate(`/kurslarimiz/frontent/html/${value.id}`)
                   }
@@ -44,7 +43,7 @@ const VideoPlay = () => {
                   {value.title}
                 </Wrapper.Container.Right.Title>
                 <Wrapper.Container.Right.Short
-                  active={value.id - 1 === id - 1}
+                  active={value.id - 1 === id - 1 ? 1 : 0}
                   onClick={() =>
                     navigate(`/kurslarimiz/frontent/html/${value.id}`)
                   }
